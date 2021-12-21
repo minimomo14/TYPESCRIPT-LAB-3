@@ -9,7 +9,7 @@ class LightContainer implements ShippingContainer {
     }
 
     getGrossWeight(): number {
-        console.log(`${this.cargoWeight}`)
+        return this.cargoWeight;
     }
 }
 export default LightContainer;

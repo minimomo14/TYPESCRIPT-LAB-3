@@ -4,4 +4,5 @@ interface ShippingContainer {
     cargoWeight: number;
     getGrossWeight(): number;
 }
+
 export default ShippingContainer;
